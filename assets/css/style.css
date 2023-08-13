@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
 .name {
   font-size: 100px;
+  
+  font-weight: 900;
 }
 
 .producer {
   font-size: xx-large;
+  font-weight: 400;
 }
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
@@ -86,6 +91,7 @@
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
+ 
   }
 
   .myNav {
@@ -102,6 +108,7 @@
     background: #2c2c2c;
     color: #fff;
     cursor: pointer;
+    border-radius: 8px;
     
   }
   
