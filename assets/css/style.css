@@ -25,7 +25,7 @@ body {
 }
 
 .content {
-  position: fixed;
+  position: absolute;
   text-align: center;
   background: rgba(0, 0, 0, 0.2);
   color: #f1f1f1;
@@ -46,7 +46,7 @@ body {
 }
 
 
-.menubtn {
+.menubtn, .hidebtn {
   position: absolute;
   display: flex;
   align-items: center;
@@ -63,7 +63,7 @@ body {
   cursor: pointer;
 }
 
-.hidebtn {
+/* .hidebtn {
   position: absolute;
   display: flex;
   align-items: center;
@@ -79,20 +79,54 @@ body {
   width: 10rem;
   padding: 1rem;
   cursor: pointer;
+} */
+
+.menu-items {
+  position: fixed;
+  /* display: flex; */
+  align-items: left;
+  text-align: left;
+  justify-content: center;
+  right: 20%;
+  top: 15%;
+  text-decoration: none;
+  width: 10rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  width: 200px;
   
 
 }
 
-.split-left .hidebtn:hover {
+li a {
+  display: block;
+  width: 200px;
+  padding: 50px;
+  color: white;
+  font-size: 1rem;
+  text-align: center; 
+ text-decoration: none;
+}
+
+.list:hover {
+  color: var(--left-btn-hover-color);
+ 
+}
+
+.hidebtn:hover  {
   background-color: var(--left-btn-hover-color);
   border-color: var(--left-btn-hover-color);
   
  
 }
 
-.split-right .menubtn:hover {
-  background-color: var(--right-btn-hover-color);
-  border-color: var(--right-btn-hover-color);
+.menubtn:hover {
+  background-color: var(--left-btn-hover-color);
+  border-color: var(--left-btn-hover-color);
   
 
   
@@ -112,11 +146,6 @@ body {
   overflow: hidden;
 }
 
-/* .split-right {
-  
-  
-  overflow: hidden;
-} */
 
 .split-right {
   position: absolute;
@@ -131,13 +160,6 @@ body {
  
 }
 
-.split-left::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: var(--left-bg-color);
-}
 
 
 
@@ -215,41 +237,32 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .hidebtn {
-    
     right: 2%;
     font-size: 20px;
-  
     padding: 5px;
     width: 5rem;
- 
+  }
+
+  .menu-items {
+    right: 10%;
+    padding: 0.5rem;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .hidebtn {
-    
     right: 1%;
     font-size: 15px;
-  
     padding: 5px;
     width: 3rem;
  
   }
+.menu-items {
+  right: 5%;
+  padding: 0.5rem;
 }
 
-/* position: absolute;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  right: 5%;
-  top: 10%;
-  transform: translateX(-50%);
-  text-decoration: none;
-  color: #fff;
-  border: #fff solid 0.1rem;
-  font-size: 1rem;
-  width: 10rem;
-  padding: 1rem;
-  cursor: pointer; */
+}
+
+
 
