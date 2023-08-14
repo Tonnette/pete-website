@@ -1,29 +1,30 @@
-const left = document.querySelector('.petebtn')
-const right = document.querySelector('.btn')
+const left = document.querySelector('.hidebtn')
+const test = document.querySelector('.testbtn')
+const right = document.querySelector('.menubtn')
 const container = document.querySelector('.container')
 var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
 
-left.addEventListener('onclick', () => container.classList.add('hover-left'))
-left.addEventListener('onclick', () => container.classList.remove('hover-left'))
-
-right.addEventListener('onclick', () => container.classList.add('hover-right'))
-right.addEventListener('onclick', () => container.classList.remove('hover-right'))
 
 
 function menuFunction() {
   container.classList.add('hover-left')
   container.classList.remove('hover-right')
+
+  
 }
 
-function peteFunction() {
+function hideFunction() {
   container.classList.add('hover-right')
   container.classList.remove('hover-left')
+
+  
  
 }
 
         
-// Get the button
-var btn = document.getElementById("myBtn");
+
+
 
 // Pause and play the video, and change the button text
 function myFunction() {
