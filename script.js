@@ -1,4 +1,25 @@
+const left = document.querySelector('.petebtn')
+const right = document.querySelector('.btn')
+const container = document.querySelector('.container')
 var video = document.getElementById("myVideo");
+
+left.addEventListener('onclick', () => container.classList.add('hover-left'))
+left.addEventListener('onclick', () => container.classList.remove('hover-left'))
+
+right.addEventListener('onclick', () => container.classList.add('hover-right'))
+right.addEventListener('onclick', () => container.classList.remove('hover-right'))
+
+
+function menuFunction() {
+  container.classList.add('hover-left')
+  container.classList.remove('hover-right')
+}
+
+function peteFunction() {
+  container.classList.add('hover-right')
+  container.classList.remove('hover-left')
+ 
+}
 
         
 // Get the button
@@ -14,6 +35,3 @@ function myFunction() {
     btn.innerHTML = "Play";
   }
 }
-
-
-
