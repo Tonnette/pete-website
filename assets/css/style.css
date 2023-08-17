@@ -25,7 +25,6 @@ body {
 }
 
 .bg {
-
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -288,6 +287,21 @@ li a {
   background: #ddd;
   color: black;
 }
+
+.containerCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  display: absolute;
+  padding: 20px;
+  
+}
+
 
 
 
