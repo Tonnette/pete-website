@@ -1,7 +1,7 @@
 const left = document.querySelector('.hidebtn')
 const test = document.querySelector('.testbtn')
 const right = document.querySelector('.menubtn')
-const container = document.querySelector('.container')
+// const container = document.querySelector('.container')
 const filmContainer = document.querySelector('.filmContainer')
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
@@ -24,8 +24,8 @@ function fadeup() {
 
 function menuFunction() {
   menu.style.opacity = 1
-  container.classList.add('hover-left')
-  container.classList.remove('hover-right')
+  // container.classList.add('hover-left')
+  // container.classList.remove('hover-right')
   filmContainer.classList.add('hover-left')
   filmContainer.classList.remove('hover-right')
   
@@ -33,8 +33,8 @@ function menuFunction() {
 }
 
 function hideFunction() {
-  container.classList.add('hover-right')
-  container.classList.remove('hover-left')
+  // container.classList.add('hover-right')
+  // container.classList.remove('hover-left')
   filmContainer.classList.add('hover-right')
   filmContainer.classList.remove('hover-left')
   menu.style.opacity = 0
