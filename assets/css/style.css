@@ -16,6 +16,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
@@ -154,12 +156,15 @@ ul {
   list-style-type: none;
   width: 200px;
   
+}
+
+li {
+  margin-bottom: 15px;
 
 }
 
-li a {
-  display: block;
-  width: 200px;
+li a, .summ {
+  width: 300px;
   padding: 20px;
   color: white;
   font-size: 1rem;
@@ -168,10 +173,26 @@ li a {
  text-transform: uppercase;
 }
 
-.list:hover {
+.summ {
+  /* display: flex; */
+  /* width: 1000px; */
+  padding: 0px;
+  color: white;
+  font-size: 1rem;
+  text-align: left; 
+ text-decoration: none;
+ text-transform: uppercase;
+
+}
+
+
+.list:hover, .summ:hover, .myHover:hover {
   color: var(--left-btn-hover-color);
+  text-decoration: none;
  
 }
+
+
 
 
 
