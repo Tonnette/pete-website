@@ -9,10 +9,19 @@ var menu = document.querySelector('.menu-items');
 var textFade =  document.querySelector('.name');
 var textFade2 =  document.querySelector('.name2');
 var animateText = document.querySelector('.animationClass');
+var summ = document.querySelector('.summ')
+
+summ.addEventListener('mouseenter', () => summ.style.color = '#B30739')
+summ.addEventListener('mouseleave', () => summ.style.color = 'white')
+
+
 
 window.onload = function() {
   window.setTimeout(fadeup, 1000); //1 seconds
 }
+
+
+
 
 function fadeup() {
   textFade.style.opacity = '1';
@@ -54,3 +63,4 @@ function myFunction() {
     btn.innerHTML = "Play";
   }
 }
+
