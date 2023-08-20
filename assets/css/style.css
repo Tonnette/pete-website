@@ -73,8 +73,8 @@ height: 100%;
 } 
 
 .logoImg{
-  height: 30%;
-  width: 30%;
+  height: 15%;
+  width: 15%;
 
 }
 
@@ -89,7 +89,17 @@ height: 100%;
   animation: 2s anim-name ease-out;
 }
 
-.name2 {
+.oa {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 10px;
+  opacity: 1;
+  /* transition: 1s opacity; */
+  /* animation: 2s anim-name ease-out; */
+}
+
+.name2, .name3 {
   margin: 0;
   opacity: 0;
   transition: 1s opacity;
@@ -99,6 +109,8 @@ height: 100%;
   opacity: 0;
   transition: 1s opacity;
 }
+
+
 
 @keyframes anim-name {
   0% {
@@ -310,7 +322,7 @@ li a, .summ {
 
 .pause {
   position: fixed;
-  bottom: 0;
+  bottom: 45px;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
@@ -380,7 +392,7 @@ li a, .summ {
   transition: .5s ease;
    opacity: 0;
  position: absolute;
-  top: 50%;
+  top: 30%;
  left: 50%;
  transform: translate(-50%, -50%);
  -ms-transform: translate(-50%, -50%);
@@ -396,7 +408,33 @@ text-align: center;
   opacity: 1; 
 }
 
+.myFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: #2E2C2C;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 30px;
+  border-top: 8px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10;
+}
 
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+  border-top: 8px solid black;
+  background-color: #2E2C2C;
+ 
+  color: white;
+}
 
 
 @media only screen and (max-width: 805px) {

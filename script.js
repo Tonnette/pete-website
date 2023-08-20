@@ -8,26 +8,39 @@ var btn = document.getElementById("myBtn");
 var menu = document.querySelector('.menu-items');
 var textFade =  document.querySelector('.name');
 var textFade2 =  document.querySelector('.name2');
+var textFade3 =  document.querySelector('.name3');
 var animateText = document.querySelector('.animationClass');
 var summ = document.querySelector('.summ')
+var oa = document.querySelector('.oa')
 
 summ.addEventListener('mouseenter', () => summ.style.color = '#B30739')
 summ.addEventListener('mouseleave', () => summ.style.color = 'white')
+left.addEventListener('mouseenter', () => left.style.color = '#B30739')
+left.addEventListener('mouseleave', () => left.style.color = 'white')
+
 
 
 
 window.onload = function() {
   window.setTimeout(fadeup, 1000); //1 seconds
+  window.setTimeout(fadeupContact, 1000); //1 seconds
+}
+
+function fadeupContact() {
+  
+
+  textFade3.style.opacity = '1';
+
 }
 
 
-
-
 function fadeup() {
+  
   textFade.style.opacity = '1';
   textFade2.style.opacity = '1';
   animateText.style.opacity = '1';
-
+  textFade3.style.opacity = '1';
+  oa.style.opacity = '1';
 }
 
 
