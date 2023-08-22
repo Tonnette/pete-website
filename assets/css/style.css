@@ -10,7 +10,12 @@
   --hover-width-pete: 15%;
   --other-width-pete: 100%;
 
-  --hover-width-smallmenu: 55%;
+  --hover-width-midmenu: 55%;
+  --other-width-midmenu: 25%;
+  --hover-width-midpete: 15%;
+  --other-width-midpete: 100%;
+
+  --hover-width-smallmenu: 35%;
   --other-width-smallmenu: 25%;
   --hover-width-smallpete: 15%;
   --other-width-smallpete: 100%;
@@ -493,19 +498,19 @@ footer {
     font-size: 10px;
    }
    .hover-left .split-left {
-    width: var(--hover-width-smallmenu);
+    width: var(--hover-width-midmenu);
   }
   
   .hover-left .split-right {
-    width: var(--other-width-smallmenu);
+    width: var(--other-width-midmenu);
   }
   
   .hover-right .split-right {
-    width: var(--hover-width-smallpete);
+    width: var(--hover-width-midpete);
   }
   
   .hover-right .split-left {
-    width: var(--other-width-smallpete);
+    width: var(--other-width-midpete);
   }
 }
 
