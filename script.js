@@ -11,10 +11,13 @@ var textFade2 =  document.querySelector('.name2');
 var textFade3 =  document.querySelector('.name3');
 var animateText = document.querySelector('.animationClass');
 var summ = document.querySelector('.summ')
+var mysumm = document.querySelector('.mysumm')
 var oa = document.querySelector('.oa')
 
 summ.addEventListener('mouseenter', () => summ.style.color = '#B30739')
 summ.addEventListener('mouseleave', () => summ.style.color = 'white')
+mysumm.addEventListener('mouseenter', () => mysumm.style.color = '#B30739')
+mysumm.addEventListener('mouseleave', () => mysumm.style.color = 'white')
 left.addEventListener('mouseenter', () => left.style.color = '#B30739')
 left.addEventListener('mouseleave', () => left.style.color = 'white')
 
@@ -27,15 +30,11 @@ window.onload = function() {
 }
 
 function fadeupContact() {
-  
-
   textFade3.style.opacity = '1';
-
 }
 
 
 function fadeup() {
-  
   textFade.style.opacity = '1';
   textFade2.style.opacity = '1';
   animateText.style.opacity = '1';
