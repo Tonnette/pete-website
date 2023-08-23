@@ -9,10 +9,9 @@
   </head>
   <body>
     <div class="filmContainer">
-   
-    
+  
       <ul class="menu-items">
-        <li><a class="hidebtn list" onclick="hideFunction()">Hide menu</a></li>
+        <li><a class="hidebtn list" style="color: white" onclick="hideFunction()">Hide menu</a></li>
         <li><a class="list" href="index.html">Home</a></li>
         <li><a class="list" href="about.html">About</a></li>
         <li><a class="list" href="films.html">Films</a></li>
@@ -21,8 +20,10 @@
           <details class="myHover" style="cursor: pointer;">
             <summary style="text-align: left; margin-left: 20px; padding: 0px; color:white" class="mysumm">LIST OF PROJECTS</summary>
           
+          
+          
           <br>
-          <p class="summ" href="bogan.html">- Bogan Moths</p>
+            <p class="summ" href="bogan.html">- Bogan Moths</p>
             <p class="summ"   href="#">- Risen</p>
             <p class="summ"  href="#">- Romp</p>
             <p class="summ"   href="#">- Richard & the Windmill</p>
@@ -34,13 +35,6 @@
             <p class="summ"   href="#">- Chasing Mel</p>
            </details>
         </li>
-    
-
-        
-
-
-
-
         <li><a class="list" href="news.html">News</a></li>
         <li><a class="list" href="services.html">Services</a></li>
         <li><a class="list" href="contact.html">Contact</a></li>
@@ -52,36 +46,40 @@
      
       <div class="split-left">
         
-        <video autoplay muted loop id="myVideo">
-          <source src="./assets/images/background.mp4" type="video/mp4">
-        </video>
-        <div class="content">
-        
-          <h1 class="name">OPENING ACT FILMS</h1>
-        
-          
-            <h2 class="name2">"UNABASHEDLY, EXTRAORDINARILY CURIOUS"</h2> 
-          </div>
-        <a class="menubtn" onclick="menuFunction()">Menu</a>
       
-        
-      
+        <div class="homeContent">
+  
+  
+               
+                   <div><img src="./assets/images/bogan.jpg" width="100%" /></div>
+             
+                   <div class="textContent animationClass">
+            <h1 class="name" style="color: white">BOGAN MOTHS</h1>
+<p class="name2" style="color:white">
+    2023 | 6 x 14min Eps | Coming soon
+    <br><br>
+Role: Writer / Director
+<br><br>
+Coming soon in 2023, Romp is the spin-off from Love Bytes, the viral hit web-series that has over 9 million views and 14 thousand subscribers.
+Housemates, Jade, Stacey and Michael are the Neapolitan ice-cream of sexuality. Young, sexy and single they search for love and lust but instead find humiliation and misadventure in Sydney’s herteroflexible dating scene.
+<br><br>
+Presented by Screen Australia
+<br><br>
+Supported by QueerScreen
+</p>
+
+                   </div>
         </div>
-       
+        <a class="menubtn" onclick="menuFunction()">Menu</a>
       </div>
- 
 
-      <div class="pause">
-        <!-- Use a button to pause/play the video with JavaScript -->
-        <button id="myBtn" onclick="myFunction()">Pause</button>
-      </div>
-    </div>
+    </body>
     <footer>
-      <p>© OPENING ACT FILMS<br>
- 
-    </footer>
-
-
-    <script src="script.js"></script>
-  </body>
-</html>
+        <p>© OPENING ACT FILMS<br>
+   
+      </footer>
+  
+  
+      <script src="script.js"></script>
+    </body>
+  </html>

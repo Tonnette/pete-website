@@ -491,7 +491,7 @@ footer {
   
    .name, .name2, .name3 {
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 40px;
    }
   
    .name3{
@@ -547,14 +547,26 @@ footer {
  
  }
 
- .name, .name2, .name3 {
-  padding-top: 30px;
-  font-size: 20px;
+ .name {
+  padding-top: 90px;
+  font-size: 30px;
+ }
+
+ .name2 {
+  font-size: 20px;;
  }
 
  .name3{
   font-size: 10px;
  }
+
+ .name4 {
+  font-size: 14px;
+  transition: 3s opacity;
+
+ }
+
+
 
 .myRow {
   justify-content: center !important;

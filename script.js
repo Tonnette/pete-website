@@ -13,6 +13,8 @@ var animateText = document.querySelector('.animationClass');
 var summ = document.querySelector('.summ')
 var mysumm = document.querySelector('.mysumm')
 var oa = document.querySelector('.oa')
+var wolf = document.querySelector('.name4')
+
 
 summ.addEventListener('mouseenter', () => summ.style.color = '#B30739')
 summ.addEventListener('mouseleave', () => summ.style.color = 'white')
@@ -45,20 +47,32 @@ function fadeup() {
 
 function menuFunction() {
   menu.style.opacity = 1
-  // container.classList.add('hover-left')
-  // container.classList.remove('hover-right')
+
   filmContainer.classList.add('hover-left')
   filmContainer.classList.remove('hover-right')
+
+
+  if (window.innerWidth <= 600){
+    animateText.style.opacity = '0';
+  
+   } 
+
+  
+
+  
   
 
 }
 
 function hideFunction() {
-  // container.classList.add('hover-right')
-  // container.classList.remove('hover-left')
+  
   filmContainer.classList.add('hover-right')
   filmContainer.classList.remove('hover-left')
-  menu.style.opacity = 0
+  menu.style.opacity = '0'
+  animateText.style.opacity = '1'
+
+ 
+ 
 }
 
         
