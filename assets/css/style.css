@@ -545,6 +545,16 @@ footer {
 
 }
 
+.introText {
+text-align: justify;
+margin: 0px 30px 0px 30px;
+font-size: 1.1rem;
+color: white;
+background-color: black;
+line-height: 1.8;
+}
+
+
 
 
 
@@ -609,8 +619,13 @@ footer {
 
 
 @media only screen and (max-width: 600px) { */
-  .pimg1, .pimg2, .pimg3, .pimg4 {
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
     background-attachment: scroll;
+}
+
+.introText {
+  text-align: left !important;
+  justify-content: left !important;
 }
 
 
