@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@300;400&display=swap');
 
 :root {
   --left-bg-color: rgba(87, 84, 236, 0.7);
@@ -37,6 +38,64 @@ body {
   /* overflow: hidden; */
   margin: 0;
   background: black;
+}
+
+a {
+  text-decoration: none;
+  color: var(--left-bg-color)
+}
+
+.showcase {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+		
+}
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+#about{
+  padding: 40px;
+  text-align: center;
+
+}
+
+#about p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+#about h2 {
+  margin: 30px 0;
+  color: var(--left-bg-color);
+}
+
+.social a {
+  margin: 0 5px;
+  color: #B30739;
 }
 
 .bg {
@@ -185,6 +244,7 @@ height: 100%;
   font-size: 1rem;
   width: 6rem;
   padding: 1rem;
+  border-radius: 3px;
   cursor: pointer;
 }
 
@@ -342,7 +402,7 @@ li a {
 
 
 .pause {
-  position: fixed;
+  position: absolute;
   bottom: 55px;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
@@ -354,11 +414,12 @@ li a {
   
 #myVideo {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  top: 0;
+  left: 0;
+ width: 100%;
+  height: 100%;
   z-index: 0;
+  overflow: hidden;
 }
 
 #myBtn {
@@ -461,7 +522,7 @@ footer {
 
 
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome {
   position: relative;
   opacity: 0.70;
   background-position: center;
@@ -469,6 +530,11 @@ footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
   
+}
+
+.pimghome {
+  background-image: url('../images/phone.jpg');
+ height: 600px;
 }
 
 .pimg1 {
