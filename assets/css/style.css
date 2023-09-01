@@ -522,7 +522,7 @@ footer {
 
 
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie {
   position: relative;
   opacity: 0.70;
   background-position: center;
@@ -531,6 +531,22 @@ footer {
   background-attachment: fixed;
   
 }
+
+.pimg-pete {
+  background-image: url('../images/image3.jpg');
+ height: 100%;
+}
+
+.pimg6 {
+  background-image: url('../images/image6.jpg');
+ height: 600px;
+}
+
+.pimg-movie {
+  background-image: url('../images/movie.jpg');
+ height: 600px;
+}
+
 
 .pimghome {
   background-image: url('../images/phone.jpg');
@@ -613,7 +629,8 @@ footer {
 
 .introText {
 text-align: justify;
-margin: 0px 30px 0px 30px;
+margin: 0px 50px 0px 50px;
+padding: 30px;
 font-size: 1.1rem;
 color: white;
 background-color: black;
