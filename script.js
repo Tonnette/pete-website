@@ -14,7 +14,13 @@ var summ = document.querySelector('.summ')
 var mysumm = document.querySelector('.mysumm')
 var oa = document.querySelector('.oa')
 var wolf = document.querySelector('.name4')
+const toggles = document.querySelectorAll('.faq-toggle')
 
+toggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+        toggle.parentNode.classList.toggle('active')
+    })
+})
 
 summ.addEventListener('mouseenter', () => summ.style.color = '#B30739')
 summ.addEventListener('mouseleave', () => summ.style.color = 'white')
