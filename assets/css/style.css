@@ -522,14 +522,19 @@ footer {
 
 
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan {
   position: relative;
   opacity: 0.70;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
+
+}
+
+.pimg-bogan {
+  background-image: url('../images/bogan.jpg');
+ height: 100%;
 }
 
 .pimg-pete {
@@ -783,7 +788,7 @@ background-color: #B30739;
 
 
 @media only screen and (max-width: 600px) { */
-  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg-movie, .pimg-pete, .pimg-bogan, .pimghome {
     background-attachment: scroll;
 }
 
