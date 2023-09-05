@@ -9,6 +9,7 @@ var menu = document.querySelector('.menu-items');
 var textFade =  document.querySelector('.name');
 var textFade2 =  document.querySelector('.name2');
 var textFade3 =  document.querySelector('.name3');
+var fadeTextfilm = document.querySelector('.fadeText-film');
 var animateText = document.querySelector('.animationClass');
 var summ = document.querySelector('.summ')
 var mysumm = document.querySelector('.mysumm')
@@ -55,6 +56,7 @@ function fadeup() {
   animateText.style.opacity = '1';
   textFade3.style.opacity = '1';
   oa.style.opacity = '1';
+  fadeTextfilm.style.opacity = '1';
 }
 
 
@@ -67,6 +69,7 @@ function menuFunction() {
 
   if (window.innerWidth <= 600){
     animateText.style.opacity = '0';
+    fadeTextfilm.style.opacity = '0';
   
    } 
 
@@ -83,6 +86,7 @@ function hideFunction() {
   filmContainer.classList.remove('hover-left')
   menu.style.opacity = '0'
   animateText.style.opacity = '1'
+  fadeTextfilm.style.opacity = '1';
 
  
  
