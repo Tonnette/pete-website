@@ -45,6 +45,27 @@ a {
   color: var(--left-bg-color)
 }
 
+.round {
+  justify-content: center;
+  opacity: 1;
+  display: block;
+  height: auto;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.round-image {
+margin: 0;
+
+max-width: 65%;
+  border-radius: 50%;
+
+
+}
+
 .showcase {
   position: relative;
   height: 100vh;
@@ -618,12 +639,15 @@ footer {
   position: absolute;
   /* background-color: #111; */
   background: rgba(0, 0, 0, 0.5);
-  color: white;
   padding: 50px;
   top: 50%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
+  border: none;
+  border-width: 0;
+  border: 0;
+
 }
 
 
@@ -633,8 +657,9 @@ footer {
 }
 
 .introText {
-text-align: justify;
-margin: 0px 50px 0px 50px;
+
+max-width: 1000px;
+margin: auto;
 padding: 30px;
 font-size: 1.1rem;
 color: white;
@@ -759,6 +784,7 @@ background-color: #B30739;
    }
   
    .name, .name2, .name3 {
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 20px;
     font-size: 40px;
    }
