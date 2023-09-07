@@ -852,6 +852,15 @@ background-color: #B30739;
 
 }
 
+.menu-items {
+  justify-content: left;
+  left:30%;
+}
+
+.list {
+  color: white;
+}
+
 .section {
   text-align: center;
   padding: 20px;
