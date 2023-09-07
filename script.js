@@ -71,6 +71,7 @@ function menuFunction() {
     animateText.style.opacity = '0';
     fadeTextfilm.style.opacity = '0';
   
+  
    } 
 
   
@@ -87,6 +88,7 @@ function hideFunction() {
   menu.style.opacity = '0'
   animateText.style.opacity = '1'
   fadeTextfilm.style.opacity = '1';
+  
 
  
  

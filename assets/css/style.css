@@ -165,8 +165,9 @@ height: 100%;
 } 
 
 .logoImg{
-  height: 15%;
-  width: 15%;
+
+  width: 45%;
+  margin-left: 10px;
 
 }
 
@@ -179,6 +180,10 @@ height: 100%;
   opacity: 0;
   transition: 1s opacity;
   animation: 2s anim-name ease-out;
+}
+
+.key, .collab {
+  font-size: 4rem;
 }
 
 .oa {
@@ -302,6 +307,7 @@ li a {
   font-size: 18px; 
   margin-left: 15%;
   white-space: nowrap;
+  color: white;
 }
 
 .summ {
@@ -758,6 +764,7 @@ background-color: #B30739;
     text-align: left;
     padding-left: 0px !important;
     white-space: nowrap;
+    color: white;
   
   
   }
@@ -767,12 +774,20 @@ background-color: #B30739;
    margin-left: -50%;
    justify-content: left;
     text-align: left;
+    color: white;
   }
+
+  .collab, .key {
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+   }
   
   .mysumm{
     font-size: 20px; 
     margin-left: -40%;
     white-space: nowrap;
+    color: white;
   }
   
   .summ {
@@ -780,6 +795,7 @@ background-color: #B30739;
     margin-left: 50%;
     padding-left: 10px;
     white-space: nowrap;
+    color: white;
    
    }
   
@@ -836,8 +852,8 @@ background-color: #B30739;
 }
 
 .introText {
-  text-align: left !important;
-  justify-content: left !important;
+  text-align: center !important;
+  justify-content: center !important;
 }
 
 
@@ -845,6 +861,7 @@ background-color: #B30739;
   justify-content: left;
   text-align: left;
   padding-left: 0px !important;
+  color: white;
 
 
 }
@@ -867,16 +884,31 @@ background-color: #B30739;
   margin-left: 0%;
   padding-left: 10px;
   white-space: nowrap;
+  color: white;
  
  }
 
  .name {
-  padding-top: 90px;
-  font-size: 30px;
+  font-size: 3rem;
+ }
+
+ .collab {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 70%;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+ }
+
+ .key {
+  font-weight: 900;
+  font-size: 100%;
  }
 
  .name2 {
-  font-size: 20px;;
+  font-size: 20px;
  }
 
  .name3{
