@@ -3,12 +3,14 @@ const test = document.querySelector('.testbtn')
 const right = document.querySelector('.menubtn')
 // const container = document.querySelector('.container')
 const filmContainer = document.querySelector('.filmContainer')
-var video = document.getElementById("myVideo");
+var video = document.querySelector('.myVideo')
 var btn = document.getElementById("myBtn");
 var menu = document.querySelector('.menu-items');
 var textFade =  document.querySelector('.name');
 var textFade2 =  document.querySelector('.name2');
 var textFade3 =  document.querySelector('.name3');
+var logoFade =  document.querySelector('.logo');
+var contactFade =  document.querySelector('.fadeContact');
 var fadeTextfilm = document.querySelector('.fadeText-film');
 var animateText = document.querySelector('.animationClass');
 var summ = document.querySelector('.summ')
@@ -29,6 +31,17 @@ faqs.forEach(faq => {
       faq.parentNode.classList.toggle('active')
   })
 })
+
+// Pause and play the video, and change the button text
+function pauseFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
 
 summ.addEventListener('mouseenter', () => summ.style.color = '#B30739')
 summ.addEventListener('mouseleave', () => summ.style.color = 'white')
@@ -57,6 +70,7 @@ function fadeup() {
   textFade3.style.opacity = '1';
   oa.style.opacity = '1';
   fadeTextfilm.style.opacity = '1';
+ 
 }
 
 
@@ -70,6 +84,8 @@ function menuFunction() {
   if (window.innerWidth <= 600){
     animateText.style.opacity = '0';
     fadeTextfilm.style.opacity = '0';
+    logoFade.style.opacity = '0';
+    contactFade.style.opacity = '0';
   
   
    } 
@@ -88,6 +104,8 @@ function hideFunction() {
   menu.style.opacity = '0'
   animateText.style.opacity = '1'
   fadeTextfilm.style.opacity = '1';
+  logoFade.style.opacity = '1';
+  contactFade.style.opacity = '1';
   
 
  
@@ -98,14 +116,5 @@ function hideFunction() {
 
 
 
-// Pause and play the video, and change the button text
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
+
 

@@ -13,7 +13,8 @@
   </head>
   <body>
     <div class="filmContainer">
-     <div id="logo"> 
+
+     <div class="logo"> 
             <img src="./assets/images/oa-logo.png" class="logoImg"> 
         </div>
     
@@ -94,60 +95,77 @@
       <div class="split-left">
     <section class="showcase section-dark">
       <div class="video-container">
-        <video autoplay muted loop>
-          <source src="./assets/images/background.mp4" type="video/mp4">
-        </video>
+          <video autoplay muted loop class="myVideo">
+        <source src="./assets/images/background.mp4" type="video/mp4">
+      </video>
+      
       </div>
-   
-      <div class="content">
+      <div class="pause fadeText-film">
+        <button id="myBtn" onclick="pauseFunction()">Pause</button>
+      </div> 
 
-        <h1 class="name" style="color: #83072a;">OPENING ACT FILMS</h1>
+
+
       
 
-          <h2 class="name2">"UNABASHEDLY, EXTRAORDINARILY CURIOUS"</h2> 
+      <!-- <div class="pause">
+              <button id="myBtn" onclick="pauseFunction()">Pause</button>
+      </div> -->
+
+
+   
+      <div class="content">
+<div class="animationClass">
+  <h1 class="name" style="color: #83072a;">OPENING ACT FILMS</h1>
+      
+
+  <h2 class="name2">"UNABASHEDLY, EXTRAORDINARILY CURIOUS"</h2> 
+</div>
+
         </div>
-      <a class="menubtn" onclick="menuFunction()">Menu</a>
-      <div class="pause">
-        <!-- Use a button to pause/play the video with JavaScript -->
-        <button id="myBtn" onclick="myFunction()">Pause</button>
-      </div>
-    </section>
-    <div class="pimghome">
-      <div class="ptext">
-          <span class="border">
-              contact
-          </span>
-      </div>
-  </div>
-    <section class="section section-dark">
-      <h1 style="color: #B30739; font-size: 2rem; text-align: center; "  >
-          CONTACT US</h1>
-          <h1>Email: contactus@openingactfilms.com</h1>
-          <h2>Follow me on social media</h2>
-          <div class="social">
-            <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
-            <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
-            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
-          </div>
-  </section>
-  
-  <br><br><br>
-
-
- 
-
-      </div>
+        
+      
      
+       
+      <a class="menubtn" onclick="menuFunction()">Menu</a>
+    
+    </section>
+
+    <div class="fadeContact">
+      <div class="pimghome">
+        <div class="ptext">
+          <div class="content">
+  
+            <h2 class="key" style="color: #B30739; font-family: Arial, Helvetica, sans-serif;"><b>CONTACT</b></h2>
+  
+            
+      
+            </div>
+        </div>
+    </div>
+      <section class="section section-dark">
+    
+        <h1 style="color: #B30739; "><b>CONTACT US</b></h1>
+            <p>contactus@openingactfilms.com</p>
+            <h3>Follow us on social media</h3>
+            <div class="social">
+              <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+              <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+              <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+            </div>
+    </section>
+    
+    <br><br><br>
+  
+  
+  </div>
+  
+        </div>
+       
+  
+    
     </div>
 
-
-   
-
-
-
-
-      
-  
     <footer>
       <p>© OPENING ACT FILMS<br>
  

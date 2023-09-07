@@ -156,7 +156,7 @@ height: 100%;
 
 }
 
-#logo{ 
+.logo{ 
 	position: absolute;
 	top:10px; 
 	left:10px; 
@@ -202,7 +202,7 @@ height: 100%;
   transition: 1s opacity;
 }
 
-.animationClass, .fadeText-film {
+.animationClass, .fadeText-film, .logo, .fadeContact {
   opacity: 1;
   transition: 2s opacity;
 }
@@ -439,7 +439,7 @@ li a {
 
 }
   
-#myVideo {
+.myVideo {
   position: absolute;
   top: 0;
   left: 0;
@@ -455,15 +455,15 @@ li a {
   padding: 10px;
   border: none;
   background: #2c2c2c;
-  color: #fff;
+  color: white;
   cursor: pointer;
   border-radius: 8px;
   
 }
 
 #myBtn:hover {
-  background: #ddd;
-  color: black;
+  background: #2c2c2c;
+  color: white;
 }
 
 
@@ -777,8 +777,14 @@ background-color: #B30739;
     color: white;
   }
 
-  .collab, .key {
+  .collab{
     font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+   }
+
+   .key {
+    font-size: 3rem;
     justify-content: center;
     text-align: center;
    }
@@ -863,6 +869,13 @@ background-color: #B30739;
   padding-left: 0px !important;
   color: white;
 
+
+}
+
+.logoImg{
+
+  width: 25%;
+  margin-left: 10px;
 
 }
 
