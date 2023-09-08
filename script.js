@@ -13,7 +13,8 @@ var logoFade =  document.querySelector('.logo');
 var contactFade =  document.querySelector('.fadeContact');
 var fadeTextfilm = document.querySelector('.fadeText-film');
 var animateText = document.querySelector('.animationClass');
-var openAct = document.querySelector('.openAct');
+var contentAbout = document.querySelector('.homeFade');
+var content = document.querySelector('.content');
 
 var summ = document.querySelector('.summ')
 var mysumm = document.querySelector('.mysumm')
@@ -81,40 +82,51 @@ function menuFunction() {
 
   filmContainer.classList.add('hover-left')
   filmContainer.classList.remove('hover-right')
-  menu.style.opacity = '1'
-  animateText.style.opacity = '0';
-  animateText.style.opacity = '0';
-  fadeTextfilm.style.opacity = '0';
-  logoFade.style.opacity = '0';
-  contactFade.style.opacity = '0';
 
-
-  
 
   if (window.innerWidth >= 700) {
-    animateText.style.opacity = '1';
-  fadeTextfilm.style.opacity = '1';
-  logoFade.style.opacity = '1';
-  contactFade.style.opacity = '1';
-  menu.style.opacity = '1';
-  textFade.style.opacity ='1'
+    menu.style.opacity = '1'
+  fadeTextfilm.style.opacity = '1'
+  animateText.style.opacity = '1'
+  contactFade.style.opacity = '1'
+  contentAbout.style.opacity = '1'
+  content.style.opacity = '1'
+  logoFade.style.opacity = '1'
  
   
   
    } 
 
+  menu.style.opacity = '1'
+  fadeTextfilm.style.opacity = '0'
+  animateText.style.opacity = '0'
+  contactFade.style.opacity = '0'
+  contentAbout.style.opacity = '0'
+  content.style.opacity = '0'
+  logoFade.style.opacity = '0'
+ 
+  
+
+
+  
+
+
+
 }
 
 function hideFunction() {
-  
   filmContainer.classList.add('hover-right')
   filmContainer.classList.remove('hover-left')
-
+  menu.style.opacity = '0'
   animateText.style.opacity = '1'
-  fadeTextfilm.style.opacity = '1';
-  logoFade.style.opacity = '1';
-  contactFade.style.opacity = '1';
-  menu.style.opacity = '0';
+  fadeTextfilm.style.opacity = '1'
+  contactFade.style.opacity = '1'
+  contentAbout.style.opacity = '1'
+  content.style.opacity = '1'
+  logoFade.style.opacity = '1'
+
+  
+  
   
 
  
