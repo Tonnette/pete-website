@@ -130,7 +130,7 @@ max-width: 65%;
 .content {
   position: absolute;
   text-align: center;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.45);
   color: #f1f1f1;
   padding: 50px;
   top: 50%;

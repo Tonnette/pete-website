@@ -101,9 +101,10 @@ function menuFunction() {
   fadeTextfilm.style.opacity = '0'
   animateText.style.opacity = '0'
   contactFade.style.opacity = '0'
+  logoFade.style.opacity = '0'
   contentAbout.style.opacity = '0'
   content.style.opacity = '0'
-  logoFade.style.opacity = '0'
+
  
   
 
@@ -121,9 +122,10 @@ function hideFunction() {
   animateText.style.opacity = '1'
   fadeTextfilm.style.opacity = '1'
   contactFade.style.opacity = '1'
+  logoFade.style.opacity = '1'
   contentAbout.style.opacity = '1'
   content.style.opacity = '1'
-  logoFade.style.opacity = '1'
+ 
 
   
   
