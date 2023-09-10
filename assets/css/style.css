@@ -551,7 +551,7 @@ footer {
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen {
   position: relative;
-  opacity: 0.70;
+  opacity: 0.90;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -842,8 +842,14 @@ background-color: #B30739;
 
 
 @media only screen and (max-width: 600px) { */
-.parallax, .pimg1 {
+.parallax {
   background-attachment: scroll;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen {
+ 
+  background-attachment: scroll;
+
 }
 
 .aacta {
@@ -921,7 +927,7 @@ background-color: #B30739;
  }
 
  .name {
-  font-size: 3rem;
+  font-size: 2rem;
  }
 
  .collab {
