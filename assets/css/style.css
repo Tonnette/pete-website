@@ -549,7 +549,7 @@ footer {
 
 
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-movie {
   position: relative;
   opacity: 0.90;
   background-position: center;
@@ -595,6 +595,11 @@ footer {
  height: 100%;
   
   
+}
+
+.pimg-movie {
+  background-image: url('../images/movie.jpg');
+  height: 100%;
 }
 
 .pimg2 {
@@ -794,12 +799,12 @@ background-color: #B30739;
     text-align: center;
    }
   
-  .mysumm{
+  /* .mysumm{
     font-size: 20px; 
     margin-left: -40%;
     white-space: nowrap;
     color: white;
-  }
+  } */
   
   .summ {
     font-size: 20px; 
@@ -846,7 +851,7 @@ background-color: #B30739;
   background-attachment: scroll;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-bogan {
  
   background-attachment: scroll;
 
