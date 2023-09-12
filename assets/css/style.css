@@ -549,7 +549,7 @@ footer {
 
 
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-movie {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg-love, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-movie {
   position: relative;
   opacity: 0.90;
   background-position: center;
@@ -561,6 +561,11 @@ footer {
 
 .pimg-bogan {
   background-image: url('../images/bogan.jpg');
+ height: 100%;
+}
+
+.pimg-love {
+  background-image: url('../images/part-one-love.webp');
  height: 100%;
 }
 
@@ -851,7 +856,7 @@ background-color: #B30739;
   background-attachment: scroll;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-bogan {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-love, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-bogan {
  
   background-attachment: scroll;
 
@@ -869,16 +874,13 @@ background-color: #B30739;
   font-size: small;
 }
 
-.faq-container {
-  width: 100% !important;
-  margin: 0 auto;
 
-}
 
 
 
 .list {
   color: white;
+  font-size: small;
 }
 
 .section {
@@ -894,6 +896,7 @@ background-color: #B30739;
 
 .menu-items {
   justify-content: left;
+  top: 0;
   text-align: left;
   padding-left: 0px !important;
   color: white;
@@ -917,13 +920,13 @@ background-color: #B30739;
 }
 
 .mysumm{
-  font-size: 18px; 
+  font-size: small; 
   margin-left: 10%;
   white-space: nowrap;
 }
 
 .summ {
-  font-size: 14px; 
+  font-size: small; 
   margin-left: 0%;
   padding-left: 10px;
   white-space: nowrap;
