@@ -234,7 +234,7 @@ height: 100%;
   text-align: left;
   justify-content: center;
   right: 10%;
-  top: 5%;
+  top: 10%;
   text-decoration: none;
   width: 10rem;
   padding: 1rem;
@@ -549,14 +549,48 @@ footer {
 
 
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg-love, .pimghome, .pimg-romp .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-movie {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg-tarzan, .pimg-mel, .pimg5, .pimg-good, .pimg-chip, .pimg-forsale, .pimg-richard, .promp, .pimg-romp2, .pimg-romp3, .pimg-love, .pimghome, .pimg-romp, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-movie {
   position: relative;
   opacity: 0.90;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
 
+.pimg-mel {
+  background-image: url('../images/thumbnails/chasing.jpeg');
+  height: 100%;
+}
+
+.pimg-tarzan {
+  background-image: url('../images/thumbnails/tarzan.jpg');
+  height: 100%;
+}
+
+.pimg-good {
+  background-image: url('../images/thumbnails/neighbour.jpg');
+  height: 100%;
+}
+
+.pimg-chip {
+  background-image: url('../images/thumbnails/chip.jpeg');
+  height: 100%;
+}
+
+.pimg-forsale {
+  background-image: url('../images/thumbnails/forsale.jpeg');
+  height: 100%;
+}
+
+.pimg-richard {
+  background-image: url('../images/thumbnails/windmill.jpeg');
+  height: 100%;
+}
+
+.promp {
+  background-image: url('../images/bogan.jpg');
+ height: 600px;
 }
 
 .pimg-bogan {
@@ -566,6 +600,18 @@ footer {
 
 .pimg-romp {
   background-image: url('../images/Michael.jpg');
+ height: 100%;
+}
+
+
+
+.pimg-romp2 {
+  background-image: url('../images/romp2.jpg');
+ height: 100%;
+}
+
+.pimg-romp3 {
+  background-image: url('../images/romp3.jpg');
  height: 100%;
 }
 
@@ -862,7 +908,7 @@ background-color: #B30739;
   background-attachment: scroll;
 }
 
-.pimg1, .pimg-romp, .pimg2, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-love, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-bogan {
+.pimg1, .pimg-romp, .pimg2, .pimg-romp1, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-love, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-bogan {
  
   background-attachment: scroll;
 
