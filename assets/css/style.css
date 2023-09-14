@@ -549,7 +549,16 @@ footer {
 
 
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg-tarzan, .pimg-mel, .pimg5, .pimg-good, .pimg-chip, .pimg-forsale, .pimg-richard, .promp, .pimg-romp2, .pimg-romp3, .pimg-love, .pimghome, .pimg-romp, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-movie {
+/* .pimg1, .pimg2, .pimg3, .pimg4, .pimg-tarzan, .pimg5, .pimg-good, .pimg-chip, .pimg-forsale, .pimg-richard, .promp, .pimg-romp2, .pimg-romp3, .pimg-love, .pimghome, .pimg-romp, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-movie {
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
+.parallax {
   position: relative;
   opacity: 0.90;
   background-position: center;
@@ -558,10 +567,11 @@ footer {
   background-attachment: fixed;
 }
 
-.pimg-mel {
+.mel-image {
   background-image: url('../images/thumbnails/chasing.jpeg');
   height: 100%;
 }
+
 
 .pimg-tarzan {
   background-image: url('../images/thumbnails/tarzan.jpg');
@@ -588,9 +598,9 @@ footer {
   height: 100%;
 }
 
-.promp {
-  background-image: url('../images/bogan.jpg');
- height: 600px;
+.pcontact {
+  background-image: url('../images/contact.jpg');
+  height: 100%;
 }
 
 .pimg-bogan {
@@ -601,6 +611,11 @@ footer {
 .pimg-romp {
   background-image: url('../images/Michael.jpg');
  height: 100%;
+}
+
+.pimghome {
+  background-image: url('../images/phone.jpg');
+  height: 600px;
 }
 
 
@@ -622,7 +637,7 @@ footer {
 
 .pimg-risen {
   background-image: url('../images/risen.jpg');
- height: 100%;
+ height: 1000px;
 }
 
 .pimg-pete {
@@ -640,11 +655,13 @@ footer {
  height: 600px;
 }
 
-
-.pimghome {
-  background-image: url('../images/phone.jpg');
- height: 600px;
+.pimg-contact {
+  background-image: url('../images/contact.jpg');
+ height: 800px;
 }
+
+
+
 
 .pimg1 {
   background-image: url('../images/image1.jpg');
@@ -673,7 +690,13 @@ footer {
   min-height: 400px;
 }
 
-.pimg5 {
+.pimg8 {
+  background-image: url('../images/thumbnails/chasing.jpeg');
+  min-height: 400px;
+}
+
+
+.pimgmel {
   background-image: url('../images/image5.jpg');
   min-height: 400px;
 }
@@ -740,86 +763,11 @@ line-height: 1.8;
 }
 
 
-.faq-container, .filmText {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.faq {
-  background-color: black;
-  color: #B30739;
-  border: 1px solid #9fa4a8;
-  border-radius: 10px;
-  margin: 20px 0;
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s ease;
-}
-
-.faq.active {
-  background-color: black;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
-
-}
 
 
 
-.faq-title {
-  margin: 0 35px 0 0;
-  cursor: pointer;
 
 
-}
-
-.faq-text {
-  display: none;
-  color: white;
-  margin: 30px 0 0;
-}
-
-.faq.active .faq-text {
-  display: block;
-}
-
-.faq-toggle {
-  background-color: transparent;
-  color: #B30739;
-  border: 0;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  padding: 0;
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  height: 30px;
-  width: 30px;
-}
-
-.faq-toggle:focus {
-  outline: 0;
-}
-
-.faq-toggle .fa-times {
-  display: none;
-}
-
-.faq.active .faq-toggle .fa-times {
-  display: block;
-  color: white;
-}
-
-.faq.active .faq-toggle .fa-chevron-down {
-  display: none;
-}
-
-.faq.active .faq-toggle {
-background-color: #B30739;
-}
 
 
 
@@ -908,7 +856,7 @@ background-color: #B30739;
   background-attachment: scroll;
 }
 
-.pimg1, .pimg-romp, .pimg2, .pimg-romp1, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-love, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-bogan {
+.pimg1, .pimg-contact, .pimg-romp, .pimg2, .pimg-romp1, .pimg3, .pimg4, .pimg5, .pimghome, .pimg-love, .pimg-pete, .pimg6, .pimg-movie, .pimg-bogan, .pimg-risen, .pimg-bogan {
  
   background-attachment: scroll;
 
@@ -948,7 +896,7 @@ background-color: #B30739;
 
 .menu-items {
   justify-content: left;
-  top: 0;
+  top: 10%;
   text-align: left;
   padding-left: 0px !important;
   color: white;
